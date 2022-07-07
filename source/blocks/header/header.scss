@@ -46,7 +46,7 @@
 //нужно создать блок logotype в нём будет логотип
 //в img/svg/ должен быть файл logoSVG.pug (это картинка логотипа)
 //в img/svg/ должен быть файл magnifying-glass-svg.pug это лупа для поиска
-//На мобилках устанавливается величина хедера через скрипт header.js нужно изменять переменную headerVisiblePartHeight
+
 /*
 pug variables:
   pages:[{text: "pageTitle", pageHref: "pageHref"}] // header__pages.pug отображает количество страниц и ссылается на них. text - текст, который отображается в ссылке, pageHref - сама ссылка.
