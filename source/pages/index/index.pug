@@ -1,0 +1,88 @@
+include ../../blocks/favicon/favicon.pug
+include ../../blocks/main-screen/main-screen.pug
+include ../../blocks/header/header.pug
+doctype html
+html(lang="ru")
+  head
+    meta(charset = "utf-8")
+    meta(name="viewport", content="initial-scale=1.0, width=device-width")
+    title Жаблоны
+    link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet")
+    +favicon()
+  body
+    +header({
+      services:[
+        {
+          text: `service1 with dropdown`,
+          modifier: 'puf',
+          subItems: [
+            {
+              text: "subItem 1",
+              subItemHref: "lambordgini",
+              modifier: 'pruf',
+            },
+            {
+              text: "subItem 2",
+            },
+            {
+              text: "subItem 3",
+              subItemHref: "lambordgini",
+              modifier: 'pruf',
+            },
+          ]
+        },
+        {
+          text: "service2"
+        },
+        {
+          text: `service1 with dropdown`,
+          modifier: 'puf',
+          subItems: [
+            {
+              text: "subItem 3",
+              subItemHref: "lambordgini",
+              modifier: 'pruf',
+            },
+            {
+              text: "subItem 2",
+            },
+            {
+              text: "subItem 3",
+              subItemHref: "lambordgini",
+              modifier: 'pruf',
+            },
+          ]
+        },
+      ]
+    })(class="content-container")
+    main
+      p 1
+      p 2
+      p 3
+      p 4
+      p 5
+      p 1
+      p 2
+      p 3
+      p 4
+      p 5
+      p 1
+      p 2
+      p 3
+      p 4
+      p 5
+      p 1
+      p 2
+      p 3
+      p 4
+      p 5
+      p 1
+      p 2
+      p 3
+      p 4
+      p 5
+      p 1
+      p 2
+      p 3
+      p 4
+      p 5

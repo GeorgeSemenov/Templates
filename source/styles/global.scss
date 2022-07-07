@@ -1,0 +1,14 @@
+html{
+  background-color: $white;
+  color: $black;
+  font-size: 10px;
+  font-family: 'quicksand', tahoma,  sans-serif;
+}
+body{margin:0;}
+main{
+}
+
+.content-container{
+  max-width: 1128px;
+  @include mx(auto);
+}
